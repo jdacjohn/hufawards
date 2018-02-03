@@ -1,0 +1,173 @@
+
+	/**SPONSORS PAGE**/
+
+.sponsor_app_btn a {
+    display: block;
+    float: left;
+    height: 26px;
+	width:206px;
+    text-indent: -3000px;
+    text-decoration: none;
+    background-image: url(../images/sponsor_app_btn.jpg); 
+    background-repeat: no-repeat;
+}
+
+.sponsor_app_btn a:hover {
+        width: 206px;
+        background-position: 0px -25px;
+    }
+
+		/**ADVERTISING PAGE**/
+
+	.advertising_app_btn a {
+	    display: block;
+	    float: left;
+	    height: 26px;
+		width:206px;
+	    text-indent: -3000px;
+	    text-decoration: none;
+	    background-image: url(../images/advertising_app_btn.png); 
+	    background-repeat: no-repeat;
+	}
+
+	.advertising_app_btn a:hover {
+	        width: 206px;
+	        background-position: 0px -25px;
+	    }
+
+	/**VENDORS PAGE**/
+
+
+
+.nomination_app_btn a {
+    display: block;
+    float: left;
+    height: 26px;
+	width:206px;
+    text-indent: -3000px;
+    text-decoration: none;
+    background-image: url('../images/nominations_app_btn.png'); 
+    background-repeat: no-repeat;
+ background-position: 0px 0px;
+}
+
+.nomination_app_btn a:hover {
+        width: 206px;
+        background-position: 0px -25px;
+    }
+
+.vendor_app_btn a {
+    display: block;
+    float: left;
+    height: 26px;
+	width:206px;
+    text-indent: -3000px;
+    text-decoration: none;
+    background-image: url(../images/vendor_app_btn.gif); 
+    background-repeat: no-repeat;
+}
+
+.vendor_app_btn a:hover {
+        width: 206px;
+        background-position: 0px -25px;
+    }
+
+	.past_vendors {
+	position: relative;
+	top: 0px;
+	left:0px;
+	background:url('../images/vendors_pastvendors_header.jpg')no-repeat;
+	width:637px;
+	height:41px;
+	}
+
+	.vendor_upbtn {
+	position: relative;
+	top: 10px;
+	left:600px;	
+	}
+	
+	
+	/**VOLUNTEERS PAGE**/
+	.volunteer_app_btn a {
+	    display: block;
+	    float: left;
+	    height: 26px;
+		width:206px;
+	    text-indent: -3000px;
+	    text-decoration: none;
+	    background-image: url(../images/volunteer_app_btn.gif); 
+	    background-repeat: no-repeat;
+	}
+
+	.volunteer_app_btn a:hover {
+	        width: 206px;
+	        background-position: 0px -25px;
+	    }
+	
+		/**SCHOLARSHIP PAGE**/
+		.scholarship_app_btn a {
+		    display: block;
+		    float: left;
+		    height: 26px;
+			width:206px;
+		    text-indent: -3000px;
+		    text-decoration: none;
+		    background-image: url(../images/scholarship_app_btn.gif); 
+		    background-repeat: no-repeat;
+		}
+
+		.scholarship_app_btn a:hover {
+		        width: 206px;
+		        background-position: 0px -25px;
+		    }
+		
+	/**CONTACT PAGE**/
+	
+	
+	.contact_info {
+		float: left;
+		width: 400px;
+	}
+	
+	.contact_image {
+		float: left;
+		width: 300px;
+	}
+	
+	.pastevents_scroll {
+	overflow:auto;
+	width: 750px;
+	height: 1000px;	
+	}
+	
+	.awardstable tr td {
+	font-size: 12px;
+
+	}
+	
+	
+	#maincontent {
+	position: relative;
+	top:10px;
+	left: 0px;
+	width: 650px;
+	}
+	
+	#maincontent .letter {
+	float: left;
+	width: 333px;
+	font-size: 12px;
+	font-family: arial;
+	text-align: left;
+	color: #463c3c;
+	}
+	
+	#maincontent .photos {
+	float: right;
+	width: 310px;
+	font-size: 12px;
+	font-family: arial;
+	text-align: left;
+	color: #463c3c;
+	}

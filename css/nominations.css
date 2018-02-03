@@ -1,0 +1,17 @@
+.categories tr td span{
+font-weight: bold;
+font-size: 14px;
+	
+}
+
+.criteria {
+background: URL(../images/nom_criteria_header.jpg) no-repeat;
+width: 637px;
+height:41px;	
+}
+
+.criteria_upbtn {
+position: relative;
+top: 10px;
+left:600px;	
+}

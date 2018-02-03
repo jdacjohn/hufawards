@@ -1,0 +1,239 @@
+/* --------------------------------------- */
+/* --( Navigation )-- */
+/* --------------------------------------- */
+
+/* SUBNAV */
+
+ul#subnav  {
+position: relative;
+top: 0px;
+left:0px;
+width: 750px;
+height: 45px;
+}
+ul#subnav ,
+ul#subnav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul#subnav  li {
+    display: inline;
+}
+ul#subnav li a {
+    display: block;
+    height: 45px;
+    float: left;
+    background: url('../images/awards_subnav.gif');
+    background-repeat: no-repeat;
+    text-indent: -3000px;
+	outline: none;
+}
+ul#subnav li.hotel a {
+    width: 94px;
+    background-position: 0px 0px;
+}
+ul#subnav li.ticket a {
+    width: 90px;
+    background-position: -94px 0px;
+}
+ul#subnav li.cochair a {
+    width: 80px;
+    background-position: -184px 0px;
+}
+ul#subnav li.present a {
+    width: 154px;
+    background-position: -264px 0px;
+}
+
+ul#subnav li.perform a {
+    width: 158px;
+    background-position: -416px 0px;
+}
+
+ul#subnav li.honorees a {
+    width: 89px;
+    background-position: -576px 0px;
+}
+
+/* hover state */
+
+ul#subnav li.hotel a:hover {
+    background-position: 0px -45px;
+}
+ul#subnav li.ticket a:hover {
+    background-position: -94px -45px;
+}
+ul#subnav li.cochair a:hover {
+    background-position: -184px -45px;
+}
+ul#subnav li.present a:hover {
+    background-position: -264px -45px;
+}
+
+ul#subnav  li.perform a:hover {
+    background-position: -416px -45px;
+}
+
+ul#subnav li.honorees a:hover {
+    background-position: -576px -45px;
+}
+
+
+
+ul.awards_nav {
+display: block;
+position: relative;
+top: 0px;
+}
+
+ul.awards_nav,
+ul.awards_nav li {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+ul.awards_nav li {
+display: inline;
+
+}
+
+ul.awards_nav li.hotel a {
+display: block;
+float: left;
+height: 25px;
+width:85px;
+text-indent: -3000px;
+text-decoration: none;
+background-image: url(../images/hotel_info_btn.jpg);
+background-repeat: no-repeat;
+}
+
+ul.awards_nav li.hotel a:hover {
+width: 85px;
+background-position: 0px -25px;
+}
+
+ul.awards_nav li.ticket a {
+display: block;
+float: left;
+height: 25px;
+width:85px;
+text-indent: -3000px;
+text-decoration: none;
+background-image: url(../images/ticket_info_btn.jpg);
+background-repeat: no-repeat;
+}
+
+ul.awards_nav li.ticket a:hover {
+width: 85px;
+background-position: 0px -25px;
+}
+
+ul.awards_nav li.perform a {
+display: block;
+float: left;
+height: 24px;
+width:169px;
+text-indent: -3000px;
+text-decoration: none;
+background-image: url(../images/performer_btn.jpg);
+background-repeat: no-repeat;
+}
+
+ul.awards_nav li.perform a:hover {
+width: 169px;
+background-position: 0px -24px;
+}
+
+ul.awards_nav li.present a {
+display: block;
+float: left;
+height: 24px;
+width:169px;
+text-indent: -3000px;
+text-decoration: none;
+background-image: url(../images/presenters_btn.gif);
+background-repeat: no-repeat;
+}
+
+ul.awards_nav li.present a:hover {
+width: 169px;
+background-position: 0px -24px;
+}
+
+ul.awards_nav li.ticket_reg a {
+display: block;
+float: left;
+height: 24px;
+width:166px;
+text-indent: -3000px;
+text-decoration: none;
+background-image: url(../images/ticket_reg_btn.jpg);
+background-repeat: no-repeat;
+}
+
+ul.awards_nav li.ticket_reg a:hover {
+width: 166px;
+background-position: 0px -24px;
+}
+
+.hotelinfo {
+position: relative;
+top: 0px;
+left:0px;
+background:url('../images/hotel_info_header.jpg')no-repeat top left;
+width:637px;
+height:41px;
+}
+
+.hotel_upbtn {
+position: relative;
+top: 10px;
+left:600px;
+}
+
+.ticketinfo {
+position: relative;
+top: 0px;
+left:0px;
+background:url('../images/ticket_info_header.jpg')no-repeat top left;
+width:637px;
+height:41px;
+}
+
+.ticket_upbtn {
+position: relative;
+top: 10px;
+left:600px;
+}
+
+.bios {
+width: 600px;
+color:#480b0b;
+font-family: arial;
+font-size: 12px;
+}
+
+.bios a {
+color:#dc1c28;
+font-family: arial;
+font-size: 12px;
+}
+
+.bios a:hover {
+color:black;
+font-family: arial;
+font-size: 12px;
+}
+
+.scroll {
+width: 650px;
+overflow: auto;
+height:650px;
+}
+
+.performers span{
+font-size: 14px;
+font-weight: bold;
+}

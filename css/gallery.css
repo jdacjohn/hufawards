@@ -1,0 +1,43 @@
+
+/* BEGIN DEMO STYLE */
+*{margin:0;padding:0}
+
+*{margin:0;padding:0}
+
+a{color:red;text-decoration:none;outline:none;}
+a:hover{color:#742f23;}
+.caption{color:#000000;position:absolute;top:5px;left:-160px;width:200px; font-weight:bold; color: #666666;}
+.demo{position:relative;margin-top:2em;}
+.gallery_demo{width:150px;float:left;}
+.gallery_demo li{width:42px;height:38px;border:3px double #eee;margin: 0 2px 2px 0;background:#eee;}
+.gallery_demo li.hover{border-color:#bbb;}
+.gallery_demo li.active{border-style:solid;border-color:#222;}
+.gallery_demo li div{left:240px}
+.gallery_demo li div .caption{font:italic 0.7em/1.4 georgia,serif;}
+
+.galleria_container{margin:0 auto 60px auto;height:438px;width:700px;float:right;position: absolute; left: 160px;top: 150px;}
+
+.nav{padding-top:15px;clear:both; }
+
+.info{text-align:left;margin:30px 0;border-top:1px dotted #221;padding-top:30px;clear:both;}
+.info p{margin-top:1.6em;}
+
+
+
+.gallery_demo_unstyled{position:absolute; top:180px;left: 0px; }
+.nav{position:absolute;top:105px;left:655px; width:150px;font-family:arial; font-size: 12px; color:red;}
+
+.instructions {
+width: 400px;
+font-family: arial;
+font-size: 12px;
+color: #463c3c;
+
+}
+
+.galleryarrows {
+position: absolute;
+top: 49px;
+left: 480px;
+width: 300px;
+}
